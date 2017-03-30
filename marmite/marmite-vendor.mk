@@ -33,5 +33,3 @@ PRODUCT_PACKAGES += \
     com.qti.location.sdk \
     qcnvitems \
     qcrilhook
-
-endif
