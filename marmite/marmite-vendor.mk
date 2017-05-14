@@ -61,9 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/wileyfox/marmite/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/wileyfox/marmite/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
-    vendor/wileyfox/marmite/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-    vendor/wileyfox/marmite/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/wileyfox/marmite/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/wileyfox/marmite/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/wileyfox/marmite/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
@@ -78,15 +75,17 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/wileyfox/marmite/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/wileyfox/marmite/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
     vendor/wileyfox/marmite/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/wileyfox/marmite/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/wileyfox/marmite/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
-    vendor/wileyfox/marmite/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/wileyfox/marmite/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/wileyfox/marmite/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/wileyfox/marmite/proprietary/etc/lowi.conf:system/etc/lowi.conf \
-    vendor/wileyfox/marmite/proprietary/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
-    vendor/wileyfox/marmite/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
@@ -98,14 +97,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wileyfox/marmite/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/wileyfox/marmite/proprietary/etc/sec_config:system/etc/sec_config \
-    vendor/wileyfox/marmite/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/wileyfox/marmite/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/wileyfox/marmite/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/wileyfox/marmite/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/wileyfox/marmite/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/wileyfox/marmite/proprietary/etc/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/wileyfox/marmite/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/wileyfox/marmite/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/wileyfox/marmite/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/wileyfox/marmite/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -120,18 +113,28 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
+    vendor/wileyfox/marmite/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/wileyfox/marmite/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/wileyfox/marmite/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/wileyfox/marmite/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/wileyfox/marmite/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/wileyfox/marmite/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/marmite/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
@@ -140,8 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/wileyfox/marmite/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/wileyfox/marmite/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/wileyfox/marmite/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
@@ -242,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/libMpeg4SwEncoder.so:system/vendor/lib64/libMpeg4SwEncoder.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
@@ -345,6 +345,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
@@ -371,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8856_hfr_90_dw9714.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:system/vendor/lib/libchromatix_ov8856_liveshot.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:system/vendor/lib/libchromatix_ov8856_postproc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
@@ -403,6 +405,95 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_cpp_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_cpp_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_cpp_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:system/vendor/lib/libchromatix_s5k3l8_default_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_common.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_liveshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_cpp_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_liveshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_postproc.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:system/vendor/lib/libchromatix_s5k3l8_postproc.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:system/vendor/lib/libchromatix_s5k3p3_common.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_common_x50l.so:system/vendor/lib/libchromatix_s5k3p3_common_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_liveshot_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_preview_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_snapshot_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video_x50l.so:system/vendor/lib/libchromatix_s5k3p3_cpp_video_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_default_video_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_video.so:system/vendor/lib/libchromatix_s5k3p3_default_video.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_x50l.so:system/vendor/lib/libchromatix_s5k3p3_default_video_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_120_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_60_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_x50l.so:system/vendor/lib/libchromatix_s5k3p3_hfr_90_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:system/vendor/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_postproc_x50l.so:system/vendor/lib/libchromatix_s5k3p3_postproc_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_preview.so:system/vendor/lib/libchromatix_s5k3p3_preview.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_preview_x50l.so:system/vendor/lib/libchromatix_s5k3p3_preview_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot_x50l.so:system/vendor/lib/libchromatix_s5k3p3_snapshot_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800_x50l.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800_x50l.so:system/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800_x50l.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -455,9 +546,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:system/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
@@ -497,8 +592,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_isp_template.so:system/vendor/lib/libmmcamera_isp_template.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:system/vendor/lib/libmmcamera_le2464c_eeprom.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:system/vendor/lib/libmmcamera_le2464c_master_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_ov8856_eeprom.so:system/vendor/lib/libmmcamera_ov8856_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
@@ -506,10 +606,17 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_s5k3p3_x50l.so:system/vendor/lib/libmmcamera_s5k3p3_x50l.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_eeprom.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
@@ -522,9 +629,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
@@ -583,11 +688,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/wileyfox/marmite/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/wileyfox/marmite/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libMpeg4SwEncoder \
     libtime_genoff \
     QtiTelephonyService \
     shutdownlistener \
