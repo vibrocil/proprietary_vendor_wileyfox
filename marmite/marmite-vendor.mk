@@ -143,6 +143,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/wileyfox/marmite/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
@@ -177,6 +179,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libasn1crt.so:system/vendor/lib64/libasn1crt.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libavcodec.so:system/vendor/lib64/libavcodec.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libavformat.so:system/vendor/lib64/libavformat.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libavutil.so:system/vendor/lib64/libavutil.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
@@ -293,6 +298,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libswresample.so:system/vendor/lib64/libswresample.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
@@ -308,6 +314,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/sensor_calibrate.so:system/vendor/lib64/sensor_calibrate.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -346,6 +353,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libavcodec.so:system/vendor/lib/libavcodec.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavformat.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libavutil.so:system/vendor/lib/libavutil.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
@@ -670,11 +680,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
@@ -683,6 +695,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
