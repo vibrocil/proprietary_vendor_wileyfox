@@ -197,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
