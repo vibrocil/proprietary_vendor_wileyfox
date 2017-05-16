@@ -63,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wileyfox/marmite/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/wileyfox/marmite/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/wileyfox/marmite/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
+    vendor/wileyfox/marmite/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
     vendor/wileyfox/marmite/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/wileyfox/marmite/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/wileyfox/marmite/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
@@ -82,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
     vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
     vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
+    vendor/wileyfox/marmite/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/wileyfox/marmite/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
     vendor/wileyfox/marmite/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/wileyfox/marmite/proprietary/etc/izat.conf:system/etc/izat.conf \
