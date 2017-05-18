@@ -114,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/wileyfox/marmite/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
