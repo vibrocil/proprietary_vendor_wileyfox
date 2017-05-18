@@ -717,7 +717,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTetherService \
-    NQNfcNci \
     com.qti.location.sdk \
     qcnvitems \
     qcrilhook
