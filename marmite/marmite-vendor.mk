@@ -124,8 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
-    vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
@@ -135,14 +133,14 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/wileyfox/marmite/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/wileyfox/marmite/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/wileyfox/marmite/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/wileyfox/marmite/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
-    vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
-    vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/marmite/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/wileyfox/marmite/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/wileyfox/marmite/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -311,6 +309,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libswresample.so:system/vendor/lib64/libswresample.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libswscale.so:system/vendor/lib64/libswscale.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libswvdec.so:system/vendor/lib64/libswvdec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
@@ -369,6 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libavformat.so:system/vendor/lib/libavformat.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libavutil.so:system/vendor/lib/libavutil.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
@@ -656,6 +656,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libnqnfc_nci_jni.so:system/vendor/lib/libnqnfc_nci_jni.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libnqnfc-nci.so:system/vendor/lib/libnqnfc-nci.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
@@ -698,6 +701,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libswresample.so:system/vendor/lib/libswresample.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -733,6 +737,9 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTetherService \
+    com.google.android.maps \
+    com.google.android.media.effects \
+    com.google.widevine.software.drm \
     com.nxp.nfc.nq \
     com.qti.location.sdk \
     qcnvitems \

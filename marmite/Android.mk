@@ -129,6 +129,36 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.maps
+LOCAL_MODULE_OWNER := wileyfox
+LOCAL_SRC_FILES := proprietary/framework/com.google.android.maps.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.media.effects
+LOCAL_MODULE_OWNER := wileyfox
+LOCAL_SRC_FILES := proprietary/framework/com.google.android.media.effects.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.widevine.software.drm
+LOCAL_MODULE_OWNER := wileyfox
+LOCAL_SRC_FILES := proprietary/framework/com.google.widevine.software.drm.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.nxp.nfc.nq
 LOCAL_MODULE_OWNER := wileyfox
 LOCAL_SRC_FILES := proprietary/framework/com.nxp.nfc.nq.jar
