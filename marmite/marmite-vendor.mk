@@ -114,19 +114,26 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/wileyfox/marmite/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/wileyfox/marmite/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/wileyfox/marmite/proprietary/lib64/hw/audio.primary.msm8937.so:system/lib64/hw/audio.primary.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib64/libalgoandroid.so:system/lib64/libalgoandroid.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/wileyfox/marmite/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/wileyfox/marmite/proprietary/lib/hw/audio.primary.msm8937.so:system/lib/hw/audio.primary.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
+    vendor/wileyfox/marmite/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/wileyfox/marmite/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -136,6 +143,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/wileyfox/marmite/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/wileyfox/marmite/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
+    vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
+    vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/marmite/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
