@@ -45,13 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wileyfox/marmite/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/wileyfox/marmite/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/AW87319/MTP_Bluetooth_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_General_cal.acdb:system/etc/acdbdata/AW87319/MTP_General_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Global_cal.acdb:system/etc/acdbdata/AW87319/MTP_Global_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Handset_cal.acdb:system/etc/acdbdata/AW87319/MTP_Handset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Hdmi_cal.acdb:system/etc/acdbdata/AW87319/MTP_Hdmi_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Headset_cal.acdb:system/etc/acdbdata/AW87319/MTP_Headset_cal.acdb \
-    vendor/wileyfox/marmite/proprietary/etc/acdbdata/AW87319/MTP_Speaker_cal.acdb:system/etc/acdbdata/AW87319/MTP_Speaker_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/wileyfox/marmite/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -127,9 +120,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/audio.primary.msm8937.so:system/lib/hw/audio.primary.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
@@ -731,11 +726,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/wileyfox/marmite/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/wileyfox/marmite/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/wileyfox/marmite/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
 PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy \
     libMpeg4SwEncoder \
     libtime_genoff \
     QtiTelephonyService \
