@@ -83,8 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/wileyfox/marmite/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/wileyfox/marmite/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/wileyfox/marmite/proprietary/etc/permissions/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
-    vendor/wileyfox/marmite/proprietary/etc/permissions/com.nxp.nfc.nq.xml:system/etc/permissions/com.nxp.nfc.nq.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/wileyfox/marmite/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -743,7 +741,6 @@ PRODUCT_PACKAGES += \
     com.google.android.maps \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
-    com.nxp.nfc.nq \
     com.qti.location.sdk \
     qcnvitems \
     qcrilhook
