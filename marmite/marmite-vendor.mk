@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/wileyfox/marmite/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/wileyfox/marmite/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/wileyfox/marmite/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
