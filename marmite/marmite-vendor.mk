@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wileyfox/marmite/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wileyfox/marmite/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/wileyfox/marmite/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
     vendor/wileyfox/marmite/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wileyfox/marmite/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/wileyfox/marmite/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -162,11 +163,17 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/wileyfox/marmite/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/wileyfox/marmite/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/wileyfox/marmite/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/wileyfox/marmite/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/wileyfox/marmite/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/marmite/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
@@ -180,6 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/wileyfox/marmite/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/wileyfox/marmite/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/wileyfox/marmite/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
