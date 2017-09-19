@@ -174,6 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/wileyfox/marmite/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/wileyfox/marmite/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/wileyfox/marmite/proprietary/lib/libremosaic_daemon.so:system/lib/libremosaic_daemon.so \
     vendor/wileyfox/marmite/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
