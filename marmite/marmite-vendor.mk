@@ -165,6 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/wileyfox/marmite/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
@@ -176,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
     vendor/wileyfox/marmite/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
     vendor/wileyfox/marmite/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/wileyfox/marmite/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/wileyfox/marmite/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
