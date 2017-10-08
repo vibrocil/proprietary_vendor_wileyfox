@@ -149,12 +149,14 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/wileyfox/marmite/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/wileyfox/marmite/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/wileyfox/marmite/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/wileyfox/marmite/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/wileyfox/marmite/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/wileyfox/marmite/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
     vendor/wileyfox/marmite/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/wileyfox/marmite/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
     vendor/wileyfox/marmite/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/wileyfox/marmite/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
